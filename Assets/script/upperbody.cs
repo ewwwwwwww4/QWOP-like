@@ -87,6 +87,8 @@ public class upperbody : MonoBehaviour
 
         leftJoint.motor = leftMotor;
         rightJoint.motor = rightMotor;
+
+       
     }
 }
 
