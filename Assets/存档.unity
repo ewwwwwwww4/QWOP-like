@@ -1039,8 +1039,8 @@ FixedJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: -7.933078, y: 5.095973}
-  m_ConnectedAnchor: {x: 0.00000023841858, y: 0}
+  m_Anchor: {x: -8.146481, y: 4.744164}
+  m_ConnectedAnchor: {x: 0.6254158, y: -0.7781801}
   m_DampingRatio: 0
   m_Frequency: 0
 --- !u!50 &619970393
@@ -1123,14 +1123,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 619970391}
-  m_LocalRotation: {x: -0.029368063, y: -0.013796967, z: -0.07291386, w: 0.99681026}
-  m_LocalPosition: {x: 44.11, y: -12.66, z: 2.61}
+  m_LocalRotation: {x: -0.015184406, y: 0.015409048, z: -0.34956026, w: 0.93666416}
+  m_LocalPosition: {x: 53.4, y: -4, z: 2.3}
   m_LocalScale: {x: 3.9345229, y: 3.084283, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2120464669}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: -3.472, y: -1.333, z: -8.327}
+  m_LocalEulerAnglesHint: {x: -1.013, y: 2.263, z: -40.951}
 --- !u!114 &619970397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2267,8 +2267,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 60
-    m_UpperAngle: -60
+    m_LowerAngle: 62.21
+    m_UpperAngle: -37.2
 --- !u!50 &1008585210
 Rigidbody2D:
   serializedVersion: 4
@@ -2708,7 +2708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061553468}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.6, y: 32.1, z: -10}
+  m_LocalPosition: {x: 6.4, y: 34.6, z: -10}
   m_LocalScale: {x: 1, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2890,7 +2890,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1160695518}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 11.9, y: 31.4, z: 0}
   m_LocalScale: {x: 3.3979862, y: 3.9321413, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3011,7 +3011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164316501}
   m_LocalRotation: {x: -0.003035412, y: -0.0012998622, z: 0.5087294, w: 0.8609202}
-  m_LocalPosition: {x: 13.99, y: 6.2, z: 0.01}
+  m_LocalPosition: {x: 14.1, y: 6.14, z: 0.01}
   m_LocalScale: {x: 2.413227, y: 2.1191936, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3033,15 +3033,15 @@ HingeJoint2D:
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
   m_Anchor: {x: -0.04801464, y: 0.6262989}
-  m_ConnectedAnchor: {x: 0.10068488, y: -0.37347984}
+  m_ConnectedAnchor: {x: 0.10068488, y: -0.95}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: -115.2
-    m_UpperAngle: 60.7
+    m_LowerAngle: -143.46
+    m_UpperAngle: -31.1
 --- !u!60 &1164316507
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -3429,7 +3429,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1338681276
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3479,8 +3479,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4288434015
+  m_fontColor: {r: 0.37111884, g: 0.30949628, b: 0.6132076, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3503,8 +3503,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4090,8 +4090,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4287191657
+  m_fontColor: {r: 0.41201302, g: 0.35257208, b: 0.5377358, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -4114,8 +4114,8 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_fontStyle: 17
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4693,16 +4693,16 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: -0.120239496, y: 1.0746021}
-  m_ConnectedAnchor: {x: 0.29707444, y: -1.0764084}
+  m_Anchor: {x: -0.12938261, y: 1.1315279}
+  m_ConnectedAnchor: {x: 0.30281806, y: -1.5484581}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 60
-    m_UpperAngle: -60
+    m_LowerAngle: -38.4
+    m_UpperAngle: -129.8
 --- !u!50 &1933966670
 Rigidbody2D:
   serializedVersion: 4
