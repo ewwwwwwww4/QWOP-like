@@ -512,8 +512,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 226.14
-    m_UpperAngle: 292.3
+    m_LowerAngle: 93.6
+    m_UpperAngle: 268.5
 --- !u!50 &177453738
 Rigidbody2D:
   serializedVersion: 4
@@ -717,8 +717,8 @@ HingeJoint2D:
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 246.5
-    m_UpperAngle: 309.9
+    m_LowerAngle: 268
+    m_UpperAngle: 451.1
 --- !u!1 &405069822
 GameObject:
   m_ObjectHideFlags: 0
@@ -1887,16 +1887,16 @@ HingeJoint2D:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0.009573936, y: 1.7652192}
-  m_ConnectedAnchor: {x: -0.08076382, y: -1.5027552}
+  m_Anchor: {x: -0.15762615, y: 1.6256337}
+  m_ConnectedAnchor: {x: -0.2528801, y: -1.4875336}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
     m_MaximumMotorForce: 10000
   m_UseLimits: 1
   m_AngleLimits:
-    m_LowerAngle: 107.3
-    m_UpperAngle: 231.31
+    m_LowerAngle: 91.1
+    m_UpperAngle: -90.6
 --- !u!1 &967337971
 GameObject:
   m_ObjectHideFlags: 0
